@@ -14,6 +14,7 @@ import org.spongepowered.api.text.format.TextColors;
 import org.spongepowered.api.text.format.TextStyles;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
@@ -22,7 +23,7 @@ import java.util.Map;
  */
 public class FeuExecutor extends FeuExecutorBase {
 
-    public static final List<String> ALIASES = Arrays.asList("fe", "econ");
+    public static final List<String> ALIASES = Collections.singletonList("feu");
 
     public static final String NAME = ALIASES.get(0);
 

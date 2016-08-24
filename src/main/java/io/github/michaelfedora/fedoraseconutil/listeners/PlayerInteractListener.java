@@ -12,11 +12,11 @@ public class PlayerInteractListener {
 
     @Listener
     public void onPlayerPrimary(InteractBlockEvent.Primary event, @First Player player) {
-
+        // Trade Forwards (a for b)
     }
 
     @Listener
     public void onPlayerSecondary(InteractBlockEvent.Secondary event, @First Player player) {
-
+        // Trade Backwards (b for a)
     }
 }
